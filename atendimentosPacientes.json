@@ -1,0 +1,18 @@
+{
+   "atendimentos":[
+        {"idEmpregado": 0 ,
+        "idPaciente": 1 ,
+        "resumo": "teste",
+        "historico": "foi realizado um atendimento x y e z", 
+        "dataAtendimento": "07/05/2020",
+        "evolucao":10 
+        },
+        {"idEmpregado": 2 ,
+         "idPaciente": 3 ,
+         "resumo": "teste",
+         "historico": "foi realizado um atendimento x y e z", 
+          "dataAtendimento": "17/05/2020",
+          "evolucao":10            
+        }
+    ]
+}

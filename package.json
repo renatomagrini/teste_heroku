@@ -1,0 +1,27 @@
+{
+  "name": "pos_igti",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "nedb": "^1.1.2",
+    "nodemon": "^2.0.4",
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
