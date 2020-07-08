@@ -3,12 +3,12 @@ let express = require('express'),
     path = require('path');
 var app = express();
 let server = require('http').Server(app);
-const port = process.env.PORT || 8000;
+const PORT = process.env.PORT||'8080'
 
 
 
-server.listen(port,() => {
-	console.log("App is running on port" + port);
+server.listen(PORT,() => {
+	console.log("App is running on port" + PORT);
 });
 
 app.use(express.static(path.join(__dirname)));
