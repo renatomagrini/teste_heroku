@@ -4,9 +4,10 @@ var bodyParser = require('body-parser');
 var app = express();
 var cors = require('cors')
 
+
 app.use(cors())
 
-app.use(express.static('./../public'));
+app.use(express.static(path.join(__dirname)));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
